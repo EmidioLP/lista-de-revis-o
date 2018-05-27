@@ -1,6 +1,13 @@
 def q1a(a,b):
     return a + b
 
+def q1b(a,b):
+    try:
+        x = a/b
+        print(x)
+    except ZeroDivisionError:
+        print (None)
+
 def q1c(b,a):
     return (b*a)/2
 
@@ -24,12 +31,7 @@ def q4():
     return print("A data de hoje nao é 8/5/13")
 
     
-def q1b(a,b):
-    try:
-        x = a/b
-        print(x)
-    except ZeroDivisionError:
-        print (None)
+
 def q5(a,b,c,d,e):
     if a>b and a>c and a>d and a>e:
         return a
