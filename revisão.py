@@ -11,7 +11,7 @@ def q1d(r):
 def q1e(c,h):
     return c/h
 
-def q1e(a,b):
+def q1f(a,b):
     return a**b
 
 def q2():
