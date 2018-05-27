@@ -109,7 +109,13 @@ def q_12(x,y):
             if r > y:
                 print(soma)
 
-def impar(b):
-    if b%2 != 0:
-        True
-
+def q13(n):
+    soma = 0
+    r = 0
+    while r <= n:
+        if r%2==0:
+            soma = soma+r
+        else:
+            soma = soma - r
+        r= r+1
+    return soma
