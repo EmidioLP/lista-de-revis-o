@@ -130,3 +130,10 @@ def q15():
         for x in range(0,1000000):
             n = n*(1000000-x)
         print (n)
+def q22(n):
+    if n==0:
+        print("Fogo!")
+    else:
+        print(n)
+        q22(n-1)
+#Para n = 10 a saida será: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 Fogo!
