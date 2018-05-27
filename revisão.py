@@ -119,3 +119,10 @@ def q13(n):
             soma = soma - r
         r= r+1
     return soma
+
+def q14(a):
+    if a > 0:
+        n = 1
+        for x in range(0,a):
+            n = n*(a-x)
+        print (n)
