@@ -88,7 +88,6 @@ def q_10(x,y):
                 
 
 
-
 def q_11(x,y):
     if x < y:
         r = x
@@ -125,4 +124,9 @@ def q14(a):
         n = 1
         for x in range(0,a):
             n = n*(a-x)
+        print (n)
+def q15():
+        n = 1
+        for x in range(0,1000000):
+            n = n*(1000000-x)
         print (n)
