@@ -1,17 +1,17 @@
-def soma(a,b):
+def q1a(a,b):
     return a + b
 
-def areatri(b,a):
+def q1c(b,a):
     return (b*a)/2
 
-def areacirc(r):
+def q1d(r):
     pi=3,14
     return pi*(r**2)
 
-def seno(c,h):
+def q1e(c,h):
     return c/h
 
-def potencia(a,b):
+def q1e(a,b):
     return a**b
 
 def q2():
@@ -24,13 +24,13 @@ def q4():
     return print("A data de hoje nao é 8/5/13")
 
     
-def divide(a,b):
+def q1b(a,b):
     try:
         x = a/b
         print(x)
     except ZeroDivisionError:
         print (None)
-def o_maior_numero(a,b,c,d,e):
+def q5(a,b,c,d,e):
     if a>b and a>c and a>d and a>e:
         return a
     if b>a and b>c and b>d and b>e:
@@ -42,17 +42,17 @@ def o_maior_numero(a,b,c,d,e):
     if e>a and e>b and e>c and e>d:
         return e
     
-def spam(a):
+def q6(a):
     for n in range(a):
         print("spam")
 
-def spa(n):
+def q7(n):
     r = 1
     while r<=n:
         r = r+1
         print("spam")
 
-def sequencia_n_impares(n):
+def q8(n):
     print(1)
     r = 1
     while r<n:
@@ -62,7 +62,7 @@ def sequencia_n_impares(n):
         else:
             print(r)
 
-def numero_inteiro(x,y):
+def q9(x,y):
     if x < y:
         r = x
         print(r)
