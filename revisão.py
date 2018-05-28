@@ -137,3 +137,6 @@ def q22(n):
         print(n)
         q22(n-1)
 #Para n = 10 a saida será: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 Fogo!
+
+
+##TODAS AS OUTRAS QUE NÃO ESTÃO AQUI EU NÃO CONSEGUI RESPONDER
